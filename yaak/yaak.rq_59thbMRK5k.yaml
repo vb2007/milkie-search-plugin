@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_59thbMRK5k
+createdAt: 2025-11-13T22:56:53.749013497
+updatedAt: 2025-11-13T23:55:00.876834712
+workspaceId: wk_VxT3nL5LuK
+folderId: null
+authentication:
+  disabled: false
+  key: Bearer
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RjhPOW9GaUdOVDZ6OTlhMi95RWVZT3V2TWJ6UnNqWjJzQWoxSlloRGZkZ0tQbzJlZ3dteXJEcER3dzYzZnR4K1JhYmRVdW5waU41cWZyMVo2Yk5ja09HcENWM3gvdnhaTzBLeWJVYkE1YXVoUHZFOENVOW12RnNoTzNNblpBS0N1aEo2dzJueFMxcmZwOUFqYWFYSmJuRklJTnMrS3VlaXpCZld6L3gvNXBIWERKa3VaQ0l1SnFIaVU0ZDZOQ2ZwbmlTWEJBTVh0UmlEdy9pb1h2VTFxbXNSYnJjd2ZRdEhob0NSYVdVd05DL0kwcS9ZVnNjRlM5eFduVA') ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Get torrents
+sortPriority: -1763074261054.0
+url: ${[ URL ]}/${[ VERSION ]}/torrents?oby=created_at&odir=desc&pi=0&ps=50
+urlParameters:
+- enabled: true
+  name: order_by
+  value: created_at
+  id: AFqKDnNsg9
+- enabled: true
+  name: order_direction
+  value: desc
+  id: 5NVmNivbbq
+- enabled: true
+  name: per_page
+  value: '50'
+  id: Z5VIWD6hZc
+- enabled: false
+  name: page_id
+  value: '0'
+  id: GKNBgGmHaR
+- enabled: true
+  name: ''
+  value: ''
+  id: h2q49A3sSU
