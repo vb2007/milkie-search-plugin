@@ -1,2 +1,3 @@
-# milkie-plugin
-A search plugin for qBittorrent that allows filtering &amp; viewing torrents from the milkie.cc tracker
+# qBittorrent Milkie Search Plugin
+
+A search plugin for qBittorrent that allows getting, filtering and downloading torrents from the [Milkie](milkie.cc) tracker.
