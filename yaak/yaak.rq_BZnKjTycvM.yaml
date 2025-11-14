@@ -1,0 +1,28 @@
+type: http_request
+model: http_request
+id: rq_BZnKjTycvM
+createdAt: 2025-11-14T00:06:24.769032542
+updatedAt: 2025-11-14T00:09:41.700183337
+workspaceId: wk_VxT3nL5LuK
+folderId: null
+authentication:
+  key: Bearer
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R25WOUQzd2tWSkdrRmU0MzI3MHlwbXVDQ29CNnRQMXlmd2FON0NVYTFRdmdMeUlObjlVaXBSV3NMc0pHdmlSTU1CTHVCVFcvMWc4L09FZlF5Uy85MHVhcTlBWEpnZ1ZkWVB6ZEMycVVqcUxDdGQ1VnJZUGorQnlTQVdzTkEwdWt5L2dhNkwyUUM3YllxTms4ZWNRK3l4azJ6bzdQZi9wRkRsTHRMMWpHOUdhYktxdXdNU2V3NFluTHdtcGQ1QXRLRk5wUmZiMENDM2pBbzRxRG1Ndkxrb0kyT0p0ekVlUzFHUEhYQ3UzdjJFaGZiQkJZWVFGL25UTzNxVg') ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: -1763074261054.0
+url: ${[ URL ]}/${[ VERSION ]}/torrents/:torrent_id/torrent?key=${[ API_KEY ]}
+urlParameters:
+- enabled: true
+  name: :torrent_id
+  value: 68W-bm7Q4Z3g
+  id: uzmgFVEX0D
+- enabled: true
+  name: ''
+  value: ''
+  id: pNZj5SNbrj
