@@ -2,13 +2,14 @@ type: http_request
 model: http_request
 id: rq_26JunoBjRA
 createdAt: 2025-11-13T22:51:01.056646747
-updatedAt: 2025-11-13T23:53:02.704462661
+updatedAt: 2025-11-14T02:57:27.597668539
 workspaceId: wk_VxT3nL5LuK
 folderId: null
 authentication:
-  key: Bearer
-  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RjNFWU5CUlk1Y3RneFlPV3dDbTZaZFRTRiszUmtLVm5hajlHSGc0enBJUGdYYzR6bDFZdDN5N1dTbytHVGRjRU11eFNCREZoTlBXY3N4YU5KYnBRN05taTc0QlZWS2ZSMDFxbHBTY2hubkwwbkswQVlTdVlHTDhpV3c5U0RCdmpidDBWMDRKRnBvQ0M5eUE0ZHNoK2hRblR4MmJhc09EQ3czbm11eTVUc2t6N2RhT0t3R3VjNDFtejFQNWpRNndSVStVZlA1eDZxWDNvNWJZT1EwN3FXVXptdGcrMVFUckNPYXMzeVFscU1KR3l2cjc0NWJ1UDJmRDJWMw') ]}
-authenticationType: bearer
+  key: x-milkie-auth
+  prefix: ''
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R0VKcjZLak51ZVhzTytMR2orTDRtNk1kQmpQSUllTi80TXR2OUVaN0VsVkpDa2FkOG1EenRsRUJUaThuUFBURzNXZEFaUkRMUkY2anc5MzRncDlzdDg1NlVsNG9FaEp6QT0') ]}
+authenticationType: apikey
 body: {}
 bodyType: null
 description: ''
@@ -23,6 +24,6 @@ headers:
   id: 4u7HQYddY5
 method: GET
 name: Authenticate
-sortPriority: -1763074261054.0
+sortPriority: 0.0
 url: ${[ URL ]}/${[ VERSION ]}/auth
 urlParameters: []

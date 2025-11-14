@@ -2,11 +2,13 @@ type: workspace
 model: workspace
 id: wk_VxT3nL5LuK
 createdAt: 2025-11-13T21:40:10.653741662
-updatedAt: 2025-11-13T23:55:43.404978257
+updatedAt: 2025-11-14T01:17:55.362878162
 authentication:
-  disabled: true
-  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SHgvbmR5MWQ5VmQzU2ZpQndLRXR1eUZiQW9WRk9wV0RGckhER0dHY2NMY2ttYUp2RkhmaHlWRFBRbDVuZWJ1bFpzcFBJWkdadG9jN1k1QzhKcVdIcFdpNFh2clZtMGEraHJQL3pzTFhuYWU3ZTZrcTZ5VVE1UWlNeGJqUkY4YkJmaTlpZHAwT0ExTHN2eS9KOUVSNm0yeEp3VElJY2FBcmpZUUY5RkN0aHMvdVlLUW1Qc1FwMTJkV3hTRHBra2RLU0JTSCtVSHJqaVlqNlBxTmRBTDdrTmxrNkNnbmd1R1EzQmRUMmtlVDRNcGdVR1NzUm8zZ2RpbSt1Tg') ]}
-authenticationType: bearer
+  disabled: false
+  key: x-milkie-auth
+  prefix: ''
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R1NUbkxIVkpzbzFxTnNxL3RMYzJHei9VRzlHTmN4djE3ODN5VUxZcHlaa2FjODdKcDlXOXBOUUlhd2dPVjlLdHF6b1VmckZVZz0') ]}
+authenticationType: apikey
 description: ''
 headers: []
 name: Milkie API
