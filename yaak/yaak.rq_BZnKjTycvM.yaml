@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_BZnKjTycvM
 createdAt: 2025-11-14T00:06:24.769032542
-updatedAt: 2025-11-14T00:09:41.700183337
+updatedAt: 2025-11-14T00:10:57.648510694
 workspaceId: wk_VxT3nL5LuK
 folderId: null
 authentication:
@@ -14,7 +14,7 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: ''
+name: Download torrent
 sortPriority: -1763074261054.0
 url: ${[ URL ]}/${[ VERSION ]}/torrents/:torrent_id/torrent?key=${[ API_KEY ]}
 urlParameters:
