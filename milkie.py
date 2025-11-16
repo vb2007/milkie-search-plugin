@@ -45,6 +45,17 @@ class milkie(object):
             params["categories"] = self.supported_categories[cat]
 
         results = get(url=search_url, params=params, headers=headers)
+        if results.status_code == 200:
+            torrents = results.json()
+            for torrent in torrents:
+                print(
+                    f"{torrent['download_url']}|"  # link (download URL)
+                    f"{torrent['name']}|"  # name
+                    f"{torrent.get('size', -1)}|"  # size in bytes (-1 if unknown)
+                    f"{torrent.get('seeders', -1)}|"  # seeds
+                    f"{torrent.get('leechers', -1)}|"  # leech
+                    f"{torrent.get('link', 'https://milkie.cc')}"
+                )
 
     def download_torrent(self, info):
-        return
+        return download_file(info)
