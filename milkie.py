@@ -1,4 +1,4 @@
-import requests
+from requests import get
 
 global base_api_url
 base_api_url = "https://milkie.cc/api/v1"
@@ -20,8 +20,6 @@ class milkie(object):
         "software": "6",
         "adult": "7",
     }
-    # get key from: https://milkie.cc/settings/security
-    api_key = "your_key_goes_here"
 
     def __init__(self):
         return
