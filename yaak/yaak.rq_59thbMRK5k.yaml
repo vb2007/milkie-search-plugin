@@ -2,14 +2,14 @@ type: http_request
 model: http_request
 id: rq_59thbMRK5k
 createdAt: 2025-11-13T22:56:53.749013497
-updatedAt: 2025-11-14T02:57:29.374606934
+updatedAt: 2025-11-16T17:41:57.289159892
 workspaceId: wk_VxT3nL5LuK
 folderId: null
 authentication:
   disabled: false
   key: x-milkie-auth
   prefix: ''
-  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R2V3akFRVDdRazNGNUs1TXBkMytFbWNRUG1oMjBwcVVxZjhtNnFFeERNMGdkT3dVbG1BVVZnTFlva25XdThPZzY5OTRHWkhVeGlzR1MxaGpsY0lVSFExL3loVjZJSUtvND0') ]}
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R1NJbXY3T2tjMzBLN3JHUUp3aGFFeXYzN3NLQmowRksvRlB3eWhzSFZVdHVuQ28vQzBiUGJDSTVYSTUrREdqOXF2bjRNS2hTRT0') ]}
 authenticationType: apikey
 body: {}
 bodyType: null

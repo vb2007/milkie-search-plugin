@@ -2,24 +2,28 @@ type: http_request
 model: http_request
 id: rq_BZnKjTycvM
 createdAt: 2025-11-14T00:06:24.769032542
-updatedAt: 2025-11-14T02:57:27.618841505
+updatedAt: 2025-11-16T17:42:09.492627731
 workspaceId: wk_VxT3nL5LuK
 folderId: null
 authentication:
   disabled: false
-  key: x-milkie-auth
+  key: key
   location: query
   prefix: ''
-  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R1Z2T3FweVZPK2JtTFNIQmpZVk9HVVlVNU9SbVJFZ29renV5R09WR3FpK09IdmxPMWk1Y0RlekxITFMvaTU0dVFsaWJQRTlEUFpuRlhaOVh2Q3NFL0J1MndpaE8xS3VhREVTdz09') ]}
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RzVVVXJuWVRnT1I4bitISlRKUnNXTUJZYzcyVDM5UXlPOUcwTnI1NFNjcHpDcXVWdFgvNTlBaUFSN1huWERYamRkTjY1UytRRT0') ]}
 authenticationType: apikey
 body: {}
 bodyType: null
 description: ''
 headers:
 - enabled: true
+  name: Upgrade-Insecure-Requests
+  value: '1'
+  id: 6mE2BeRkbT
+- enabled: true
   name: ''
   value: ''
-  id: nNTiQymPyF
+  id: S0Eq3QZIBS
 method: GET
 name: Download torrent
 sortPriority: 1000.0
