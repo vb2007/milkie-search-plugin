@@ -26,8 +26,8 @@ class milkie(object):
         "adult": "7",
     }
 
-    def __init__(self):
-        return
+    # def __init__(self):
+    #    return
 
     def download_torrent(self, info):
         return
