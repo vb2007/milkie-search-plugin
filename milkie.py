@@ -1,7 +1,14 @@
-from novaprinter import prettyPrinter
+import requests
+
+global base_api_url
+base_api_url = "https://milkie.cc/api/v1"
+global api_key
+# get key from: https://milkie.cc/settings/security
+api_key = "your_key_goes_here"
+
 
 class milkie(object):
-    url = "https://milkie.cc/api/v1/torrents"
+    url = base_api_url + "/torrents"
     name = "Milkie"
     supported_categories = {
         "all": "0",
@@ -9,16 +16,18 @@ class milkie(object):
         "tv": "2",
         "music": "3",
         "games": "4",
-        "ebooks": "5",
-        "apps": "6",
-        "adult": "7"
+        "books": "5",
+        "software": "6",
+        "adult": "7",
     }
     # get key from: https://milkie.cc/settings/security
     api_key = "your_key_goes_here"
 
-    def authenticate(key):
-        try:
-            base_url = "https://milkie.cc/api/v1"
-            reponse = requests.get(base_url)
+    def __init__(self):
+        return
 
-    def
+    def download_torrent(self, info):
+        return
+
+    def search(self, what, cat="all"):
+        return
