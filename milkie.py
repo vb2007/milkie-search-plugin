@@ -3,7 +3,6 @@ from helpers import download_file, retrieve_url
 
 # api requests
 from requests import get
-from requests.api import head
 
 global base_api_url
 base_api_url = "https://milkie.cc/api/v1"
@@ -29,9 +28,6 @@ class milkie(object):
     # def __init__(self):
     #    return
 
-    def download_torrent(self, info):
-        return
-
     def search(self, what, cat="all"):
         # building the request
         search_url = base_api_url + "/torrents"
@@ -49,3 +45,6 @@ class milkie(object):
             params["categories"] = self.supported_categories[cat]
 
         results = get(url=search_url, params=params, headers=headers)
+
+    def download_torrent(self, info):
+        return
